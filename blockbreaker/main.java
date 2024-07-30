@@ -3,7 +3,7 @@ package blockbreaker;
 import javax.swing.JFrame;
 
 public class main{
-    public static void main(String[] args) {
+    public static void main (String[] args) {
 
         //Use JFrame object for a new window frame.
         JFrame obj1 = new JFrame();
@@ -17,5 +17,5 @@ public class main{
         obj1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         obj1.add(gamePlay);
 
-    }
+     }
 }

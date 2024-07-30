@@ -1,0 +1,17 @@
+#Use an official JDK runtime
+FROM openjdk:17-jdk-alpine
+
+# Set up the directory
+#WORKDIR /app
+
+# Copy the project file to a container
+COPY . /app
+
+#Directory creation for compiled classes
+#RUN mkdir -p bin
+
+#Compilation of Java code
+RUN javac app/main.java app/mapGenerator.java  app/gameplay.java
+
+# commands to run the game
+CMD [ "java","main" ]
