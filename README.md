@@ -9,7 +9,6 @@ This project is a classic Block Breaking Game developed using Java and Swing (JF
 - **Interactive Gameplay**: Control the paddle using keyboard inputs to keep the ball in play and break blocks.
 - **Dynamic Graphics**: Utilizes Java's AWT and Swing libraries to create a visually engaging game window.
 - **Score Tracking**: Keeps track of the player's score based on the number of blocks broken.
-- **Multiple Levels**: Progress through different levels with increasing difficulty.
 
 <h3>Technologies Used</h3>
 
