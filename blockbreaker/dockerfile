@@ -5,13 +5,13 @@ FROM openjdk:17-jdk-alpine
 #WORKDIR /app
 
 # Copy the project file to a container
-COPY . /app
+COPY main.java .
 
 #Directory creation for compiled classes
 #RUN mkdir -p bin
 
 #Compilation of Java code
-RUN javac app/main.java app/mapGenerator.java  app/gameplay.java
+# RUN javac app/main.java app/mapGenerator.java  app/gameplay.java
 
 # commands to run the game
-CMD [ "java","main" ]
+CMD [ "java","main.java" ]
